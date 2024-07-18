@@ -1,0 +1,35 @@
+{
+  "name": "frz_api_test_1",
+  "version": "1.0.0",
+  "description": "Mocha chai api test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "test-get-booking": "mocha module/test/specs/getBooking.module.js",
+    "test-create-booking": "mocha module/test/specs/createBooking.module.js",
+    "test-auth-kasir": "mocha module/test/specs_auth/01_authKasir.module.js",
+    "test-user-kasir": "mocha module/test/specs_user/02_userKasir.module.js",
+    "test-e2e-kasir": "mocha module/test/suites/kasir.suite.js",
+    "test-get-report": "mocha --spec module/test/suites/kasir.suite.js --reporter mochawesome"
+  },
+  "keywords": [
+    "api",
+    "mocha",
+    "chai"
+  ],
+  "author": "farraz",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.6.0",
+    "prompt-sync": "^4.2.0",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
