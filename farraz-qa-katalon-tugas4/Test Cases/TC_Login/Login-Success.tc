@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login-Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>da7cdf08-2337-43f9-98e7-ac9bbfd1f660</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4d6e394-34a8-4750-9dc8-c2d8af1f3cb0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51b63ba9-63f3-4371-8e8c-1f8d6331cd65</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'visual_user'</defaultValue>
+      <description></description>
+      <id>a4d6e394-34a8-4750-9dc8-c2d8af1f3cb0</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>51b63ba9-63f3-4371-8e8c-1f8d6331cd65</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
